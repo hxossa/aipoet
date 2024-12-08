@@ -11,7 +11,7 @@ chat_model = ChatOpenAI()
 import streamlit as st
 
 st.title("Create Your POET with OPENAI")
-subject = st.text_input("Please Insert Your Consept.")
+subject = st.text_input("Please Insert Your Concept.")
 st.write("Concept : " + subject)
 
 if st.button("GO"):
